@@ -8,13 +8,6 @@ import { Character } from "./resolvers/character.ts";
 import { Episode } from "./resolvers/episode.ts";
 import { typeDefs } from "./schema.ts";
 
-const resolvers = {
-  Query,
-  Character,
-  Episode,
-  Location,
-};
-
 const server = new ApolloServer({
   typeDefs,
   resolvers: {
