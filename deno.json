@@ -3,12 +3,8 @@
     "dev": "deno run --allow-all --watch main.ts"
   },
     "imports": {
-      "mongoose": "npm:mongoose@8.0.1",
       "@apollo/server": "npm:@apollo/server@4.9.5",
       "@apollo/server/standalone": "npm:@apollo/server@4.9.5/standalone",
-      "graphql": "npm:graphql@^16.8.1",
-      "graphql_tag": "https://deno.land/x/graphql_tag@0.0.1/mod.ts",
-      "gql": "https://deno.land/x/gql@1.1.2/mod.ts",
-      "graphql_tools": "https://deno.land/x/graphql_tools@0.0.3/mod.ts"
+      "graphql": "npm:graphql@^16.8.1"
     }
 }

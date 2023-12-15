@@ -1,6 +1,4 @@
 import { ApolloServer} from "@apollo/server";
-import { GraphQLHTTP } from "gql";
-import { makeExecutableSchema } from "graphql_tools";
 import { startStandaloneServer } from "@apollo/server/standalone";
 
 import { Query } from "./resolvers/query.ts";
